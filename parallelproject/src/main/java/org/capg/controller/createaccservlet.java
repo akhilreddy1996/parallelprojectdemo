@@ -16,28 +16,18 @@ import org.capg.model.Account;
 import org.capg.service.ILoginService;
 import org.capg.service.LoginServiceImpl;
 
-/**
- * Servlet implementation class createaccservlet
- */
+
 @WebServlet("/createaccservlet")
 public class createaccservlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+    
     public createaccservlet() {
         super();
         // TODO Auto-generated constructor stub
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 
