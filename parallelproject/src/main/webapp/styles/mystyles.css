@@ -1,0 +1,122 @@
+
+
+
+
+a:link{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+
+a:active{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+.errMsg{
+	color:red;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+
+h1{
+	color:blue;
+}
+hr{
+	border-color: white;
+
+}
+
+#parastyle
+{
+	color: #272728;
+	margin-top: 0px;
+	
+}
+
+#parastyle2
+{
+	color: white;
+	margin-top: 0px;
+	font-size: 40px;
+	
+	
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #464647;
+    border-style: none none  visible;
+    color:white;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white ;
+    color:#464647;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  color: peachpuff;
+  font-size: 16px;
+}
+::-moz-placeholder {
+  color: peachpuff;
+  font-size: 16px;
+}
+:-ms-input-placeholder {
+  color: peachpuff;
+  font-size: 16px;
+}
+::placeholder {
+  color: peachpuff;
+  font-size: 16px;
+}
+#signups
+{
+	margin-top: 200px;
+}
+
+#centercnt{
+	display: inline-block;
+		background-color:#464647;
+	height:670px;
+	width:1260px;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+	margin-top: -360px;
+}
+
+#cnt{
+	color:blue;
+	width: 600px;
+	margin: 30px 0px 30px 10px;
+	padding: 10px 0px 10px 10px;
+	border: 1px solid;
+	float: left;
+	
+}
+#imgs{
+	float:left;
+}
+#loginForm{
+	margin-top:100px;
+	margin-left:400px;
+	float: left;
+
+}

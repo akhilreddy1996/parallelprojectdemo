@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CapgBanking</title>
+
+<link type="text/css" rel="stylesheet" href="styles/mystyles.css">
+<script type="text/javascript" src="script/validation.js"></script>
+</head>
+<body >
+<form onsubmit="return validate()" name="f1"   method="post" action="loginServlet">
+<h1 align="center">CapgBanking</h1>
+
+
+<div id="signup">
+<div id="signups">
+<a href="Registration"><img src="images/signupimage.png" style="width:62px; height:62px"  alt="signup"></a>
+<p id="parastyle"><b>SIGN UP</b></p>
+</div>
+</div>
+
+<div id="centercnt">
+
+
+
+<div id="loginForm">
+
+  <p id="parastyle2"><b>SIGN IN</b></p>
+<br><br><br><br>
+
+	<table>
+		
+		<tr>	
+			<td id="username"><input type="text" name="userName" size="20" placeholder="Username" ></td>
+		
+			<td>
+				<div id="userErrMsg" class="errMsg"></div>
+			</td>
+			
+		</tr>
+		
+		
+		
+		<tr>	
+			<td id="password"><input type="password" name="userPwd" size="20" placeholder="Password"></td>
+			<td>
+				<div id="pwdErrMsg" class="errMsg"></div>
+			</td>
+		</tr>
+		<tr>
+			
+		
+			<td>
+				<input type="submit" value="Sign In" name="login" class="btnStyle"> 
+			</td>
+		</tr>
+	</table>
+
+</div>
+
+</div>
+
+</form>
+</body>
+</html>

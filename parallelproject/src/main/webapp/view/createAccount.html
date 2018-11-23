@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>capgBanking</title>
+</head>
+<body>
+<form method="post" name="f3" action="../createaccservlet">
+	<div>
+		<table>
+			<tr>
+				<th colspan="3">Account Creation</th>
+			</tr>
+			<tr>
+				<td>Account Type:</td>
+				<td>
+					<select name="accountType">
+						<option value="savings">Savings</option>
+						<option value="current">Current</option>
+						<option value="rd">Recurring Deposit</option>
+						<option value="fd">Fixed Deposit</option>
+						
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Opening Balance:</td>
+				<td>
+					<input type="text" name="balance" size="20">  
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="Create Account" name="createAcc" >
+				</td>
+			</tr>
+		
+		</table>
+	
+	</div>
+
+</form>
+</body>
+</html>
