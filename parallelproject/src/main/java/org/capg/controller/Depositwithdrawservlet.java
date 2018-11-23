@@ -28,6 +28,7 @@ public class Depositwithdrawservlet extends HttpServlet {
 
 		HttpSession session=request.getSession();
 		
+		System.out.println("Deepak Tripathi");
 		String mail=session.getAttribute("myuser").toString();
 		
 		List<Account> accounts=new ArrayList<>();
